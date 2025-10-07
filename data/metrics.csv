@@ -1,0 +1,6 @@
+metric,value,sde
+accuracy,0.927,0.004
+precision,0.945,0.003
+recall,0.959,0.004
+f1,0.952,0.003
+auc,0.965,0.002
