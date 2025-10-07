@@ -14,19 +14,23 @@ The project is divided into 3 notebooks and a detailed write up on the insights 
 
 The full write up and submission can be read [here](go_ahead_and_jump_writeup.pdf).
 ## Findings and Visualizations
+### Outfielder Opportunity Space
 ![](images/figures/hangtime_dist_scatter.png)
 
 All of the 2-3 Star plays require less than the population’s median sprint speed and the majority of the 5 Star plays require greater than the population’s median sprint speed. The 5 Star plays that require less than the median sprint speed occur within the first 3 seconds of the route. To convert those balls into outs, the fielders would need to be moving at a constant speed of 19.8 ft/sec for the entirety of the route.
 
+### Route Intensity
 ![](images/figures/star_out_means.png)
 
 Routes that have high route intensity (>40% intensity) provide more value as they improve the likelihood of success on higher difficulty plays.
 
+### Fielding Percentages
 ![](images/figures/star_fp.png)
 
- Outs recorded on routes with high intensity make up 65% of all 3+ Star difficulty recorded outs.
+Outs recorded on routes with high intensity make up 65% of all 3+ Star difficulty recorded outs.
 
-![](images/figure/jump_scatter.png)
+### Jump Metrics
+![](images/figures/jump_scatter.png)
 
 Fielders with quick reactions and direct routes are up and to the right of the population average line, whereas fielders that have slow reactions and indirect routes are located on the bottom left of the population line. Fielders with a high Jump metric have a red point and fielders with a low Jump metric have a blue point. Diamonds indicate fielders with at least 15 2+ Star Level opportunities.
 
