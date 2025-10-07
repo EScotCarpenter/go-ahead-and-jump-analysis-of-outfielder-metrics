@@ -14,26 +14,26 @@ The project is divided into 3 notebooks and a detailed write up on the insights 
 
 The full write up and submission can be read [here](go_ahead_and_jump_writeup.pdf).
 ## Findings and Visualizations
-![images/figures/hangtime_dist_scatter.png]
+![](images/figures/hangtime_dist_scatter.png)
 
 All of the 2-3 Star plays require less than the population’s median sprint speed and the majority of the 5 Star plays require greater than the population’s median sprint speed. The 5 Star plays that require less than the median sprint speed occur within the first 3 seconds of the route. To convert those balls into outs, the fielders would need to be moving at a constant speed of 19.8 ft/sec for the entirety of the route.
 
-![images/figures/star_out_means.png]
+![](images/figures/star_out_means.png)
 
 Routes that have high route intensity (>40% intensity) provide more value as they improve the likelihood of success on higher difficulty plays.
 
-![images/figures/star_fp.png]
+![](images/figures/star_fp.png)
 
  Outs recorded on routes with high intensity make up 65% of all 3+ Star difficulty recorded outs.
 
-![images/figure/jump_scatter.png]
+![](images/figure/jump_scatter.png)
 
 Fielders with quick reactions and direct routes are up and to the right of the population average line, whereas fielders that have slow reactions and indirect routes are located on the bottom left of the population line. Fielders with a high Jump metric have a red point and fielders with a low Jump metric have a blue point. Diamonds indicate fielders with at least 15 2+ Star Level opportunities.
 
-![images/figures/top_bot_oaa.png]
+![](images/figures/top_bot_oaa.png)
 The Top 5 outfielders all have positive values during their React and Burst phases, meaning that they travel more distance during these phases than the average outfielder. The Bottom 5 outfielders all have negative values during these same two phases, and have fairly efficient Route.
 
-![images/figures/heatmap.png] 
+![](images/figures/heatmap.png) 
 
 Route has a strong negative correlation to OAA, meaning that the closer the outfielder’s total distance traveled is to the direct distance needed, the worse their OAA will be. Additionally, React has a negative correlation with Route. This makes intuitive sense that the distance the outfielder is traveling at the beginning of the route is when they have the least amount of information about 12 where the ball will end up, leading to indirect routes. 
 
